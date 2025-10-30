@@ -1,15 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Resume - John Doe</title>
-    <link rel="stylesheet" href="static/style.css">
-</head>
-<body>
-    <!-- Plain text version for curl -->
-    <div id="plain-text-fallback">
-        <pre>================================================================================
+================================================================================
                                JOHN DOE
                           Software Developer
 ================================================================================
@@ -91,27 +80,36 @@ Google Cloud Professional Cloud Architect             2021
 ================================================================================
 
 To view this resume in a browser-friendly format, visit:
-https://yourdomain.com
+https://pktz.space
 
-curl -s yourdomain.com | head -20</pre>
-    </div>
+curl -s pktz.space | head -20
 
-    <!-- HTML version for browsers -->
-    <div id="browser-content" style="display: none;">
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume - John Doe</title>
+    <link rel="stylesheet" href="static/style.css">
+</head>
+<body>
+    <script>
+    // Hide the plain text above and show HTML content for browsers
+    document.body.innerHTML = `
         <div class="header">
             <h1 class="name">John Doe</h1>
             <div class="title">Software Developer</div>
             <div class="contact">
-                Email: <a href="mailto:john.doe@example.com">john.doe@example.com</a> |
-                Phone: (555) 123-4567 |
-                <a href="https://linkedin.com/in/johndoe" target="_blank">LinkedIn</a> |
-                <a href="https://github.com/johndoe" target="_blank">GitHub</a> |
+                Email: <a href="mailto:john.doe@example.com">john.doe@example.com</a> | 
+                Phone: (555) 123-4567 | 
+                <a href="https://linkedin.com/in/johndoe" target="_blank">LinkedIn</a> | 
+                <a href="https://github.com/johndoe" target="_blank">GitHub</a> | 
                 Location: San Francisco, CA
             </div>
         </div>
 
         <div class="curl-hint">
-            <strong>For terminal users:</strong> Try <code class="curl-command">curl yourdomain.com</code> to see the plain text version!
+            <strong>For terminal users:</strong> Try <code class="curl-command">curl pktz.space</code> to see the plain text version!
         </div>
 
         <div class="section" id="experience">
@@ -275,9 +273,7 @@ curl -s yourdomain.com | head -20</pre>
                 <li><strong>Google Cloud Professional Cloud Architect</strong> (2021)</li>
             </ul>
         </div>
-    </div>
-
-    <!-- JavaScript for browser enhancement -->
-    <script src="static/curl-detect.js"></script>
+    `;
+    </script>
 </body>
 </html>
