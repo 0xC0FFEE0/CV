@@ -1,0 +1,163 @@
+/* Resume website styles */
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #fff;
+}
+
+.header {
+    text-align: center;
+    border-bottom: 2px solid #2c5aa0;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+}
+
+.name {
+    font-size: 2.5em;
+    font-weight: 300;
+    margin: 0;
+    color: #2c5aa0;
+}
+
+.title {
+    font-size: 1.2em;
+    color: #666;
+    margin: 5px 0;
+}
+
+.contact {
+    color: #888;
+    font-size: 0.9em;
+}
+
+.contact a {
+    color: #2c5aa0;
+    text-decoration: none;
+}
+
+.contact a:hover {
+    text-decoration: underline;
+}
+
+.section {
+    margin: 30px 0;
+}
+
+.section h2 {
+    color: #2c5aa0;
+    border-bottom: 1px solid #e0e0e0;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+
+.job {
+    margin-bottom: 25px;
+}
+
+.job-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 5px;
+}
+
+.job-title {
+    font-weight: bold;
+    color: #333;
+}
+
+.company {
+    color: #666;
+}
+
+.date {
+    color: #999;
+    font-size: 0.9em;
+}
+
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.skill {
+    background: #e3f2fd;
+    color: #1976d2;
+    padding: 5px 10px;
+    border-radius: 15px;
+    font-size: 0.85em;
+}
+
+ul {
+    margin: 10px 0;
+    padding-left: 20px;
+}
+
+li {
+    margin: 5px 0;
+}
+
+.curl-hint {
+    background: #f8f9fa;
+    border-left: 4px solid #2c5aa0;
+    padding: 15px;
+    margin: 20px 0;
+    font-family: 'Courier New', monospace;
+    font-size: 0.9em;
+}
+
+@media (max-width: 600px) {
+    .job-header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    body {
+        padding: 10px;
+    }
+    
+    .name {
+        font-size: 2em;
+    }
+}
+
+/* Dark mode styles */
+@media (prefers-color-scheme: dark) {
+    body {
+        background: #1a1a1a;
+        color: #e0e0e0;
+    }
+    
+    .header {
+        border-bottom-color: #4a90e2;
+    }
+    
+    .name {
+        color: #4a90e2;
+    }
+    
+    .section h2 {
+        color: #4a90e2;
+        border-bottom-color: #333;
+    }
+    
+    .skill {
+        background: #2a2a2a;
+        color: #4a90e2;
+    }
+    
+    .contact a {
+        color: #4a90e2;
+    }
+    
+    .curl-hint {
+        background: #2a2a2a;
+        border-left-color: #4a90e2;
+    }
+}

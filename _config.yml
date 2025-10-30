@@ -1,0 +1,29 @@
+# GitHub Pages config
+title: "Resume"
+description: "A curl-friendly resume website"
+
+# Custom domain configuration
+url: "https://yourdomain.com"
+baseurl: ""
+
+# GitHub Pages settings
+markdown: kramdown
+highlighter: rouge
+timezone: America/Los_Angeles
+
+# Exclude files from processing
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - .bundle
+  - .sass-cache
+  - .jekyll-cache
+  - .jekyll-metadata
+
+# Plugins
+plugins:
+  - jekyll-sitemap
+  - jekyll-feed

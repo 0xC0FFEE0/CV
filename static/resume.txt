@@ -1,0 +1,85 @@
+================================================================================
+                               JOHN DOE
+                          Software Developer
+================================================================================
+
+Email: john.doe@example.com
+Phone: (555) 123-4567
+LinkedIn: linkedin.com/in/johndoe
+GitHub: github.com/johndoe
+Location: San Francisco, CA
+
+================================================================================
+                               EXPERIENCE
+================================================================================
+
+Senior Software Developer                              2022 - Present
+TechCorp Inc.
+• Lead development of microservices architecture serving 1M+ users
+• Implemented CI/CD pipelines reducing deployment time by 60%
+• Mentored 3 junior developers on best practices and code reviews
+• Technologies: React, Node.js, AWS, Docker, PostgreSQL
+
+Software Developer                                      2020 - 2022
+StartupXYZ
+• Built full-stack web applications using modern JavaScript frameworks
+• Optimized database queries resulting in 40% performance improvement
+• Collaborated with design team to implement responsive UI components
+• Technologies: Vue.js, Python, Django, MySQL, Redis
+
+Junior Developer                                        2019 - 2020
+WebSolutions LLC
+• Developed and maintained client websites and web applications
+• Fixed bugs and implemented new features based on client requirements
+• Participated in code reviews and followed agile development practices
+• Technologies: HTML, CSS, JavaScript, PHP, WordPress
+
+================================================================================
+                                EDUCATION
+================================================================================
+
+Bachelor of Science in Computer Science                2015 - 2019
+University of California, Berkeley
+GPA: 3.7/4.0
+
+================================================================================
+                                 SKILLS
+================================================================================
+
+Languages:     JavaScript, Python, TypeScript, Java, Go
+Frontend:      React, Vue.js, Angular, HTML5, CSS3, Sass
+Backend:       Node.js, Django, Express.js, FastAPI
+Databases:     PostgreSQL, MySQL, MongoDB, Redis
+DevOps:        AWS, Docker, Kubernetes, Jenkins, GitHub Actions
+Tools:         Git, Webpack, Jest, Cypress, Figma
+
+================================================================================
+                               PROJECTS
+================================================================================
+
+Personal Portfolio Website                             2023
+• Built responsive portfolio site using React and Tailwind CSS
+• Integrated with GitHub API to showcase repositories dynamically
+• Deployed using Vercel with automatic CI/CD
+• GitHub: github.com/johndoe/portfolio
+
+E-commerce Platform                                     2022
+• Full-stack e-commerce solution with payment processing
+• React frontend with Node.js/Express backend
+• PostgreSQL database with Redis caching
+• Features: user auth, cart, payments, admin dashboard
+
+================================================================================
+                            CERTIFICATIONS
+================================================================================
+
+AWS Certified Solutions Architect - Associate          2023
+Certified Kubernetes Application Developer (CKAD)      2022
+Google Cloud Professional Cloud Architect             2021
+
+================================================================================
+
+To view this resume in a browser-friendly format, visit:
+https://yourdomain.com
+
+curl -s yourdomain.com | head -20

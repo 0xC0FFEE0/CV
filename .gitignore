@@ -1,0 +1,32 @@
+# Git ignore rules
+
+# OS Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Editor Files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Jekyll/GitHub Pages
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+
+# Node modules
+node_modules/
+npm-debug.log*
+
+# Temporary files
+*.tmp
+*.bak
+*.log
